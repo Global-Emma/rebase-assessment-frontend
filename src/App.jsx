@@ -4,7 +4,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState('');
 
-  const url = 'http://localhost:5000'
+  const url = 'https://mern-assessment-backend-p4kd.onrender.com'
 
   useEffect(() => {
     fetch(`${url}/api/todos`)
